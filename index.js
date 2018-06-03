@@ -1,3 +1,4 @@
+const { exec } = require('child_process');
 const { prompt } = require('inquirer');
 const chalk = require('chalk');
 const branches = require('@n8rzz/branches');
@@ -29,7 +30,9 @@ function initiateBranchChange(branchToCheckout) {
 function _checkoutBranch(branchName) {
     exec(`git checkout ${branchName}`, (err, stdout, stderr) => {
         if (err) {
-            throw err;
+            console.log(chalk.red(stderr));
+
+            return;
         }
     });
 }
