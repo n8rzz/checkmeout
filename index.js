@@ -38,5 +38,5 @@ function _checkoutBranch(branchName) {
 }
 
 (function () {
-    const branchList = branches().then((branchList) => _buildCheckboxList(branchList));
+    return branches().then((branchList) => _buildCheckboxList(branchList));
 })()
