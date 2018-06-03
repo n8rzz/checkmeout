@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/n8rzz/checkmeout#readme",
   "dependencies": {
+    "@n8rzz/branches": "git+https://github.com/n8rzz/branches.git",
     "chalk": "^2.4.1",
     "inquirer": "^6.0.0"
   }
