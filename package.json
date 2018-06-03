@@ -1,6 +1,6 @@
 {
   "name": "checkmeout",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "preferGlobal": true,
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/n8rzz/checkmeout#readme",
   "dependencies": {
-    "@n8rzz/branches": "git+https://github.com/n8rzz/branches.git",
+    "@n8rzz/branches": "^1.0.0",
     "chalk": "^2.4.1",
     "inquirer": "^6.0.0"
   }
