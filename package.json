@@ -1,0 +1,28 @@
+{
+  "name": "checkmeout",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8rzz/checkmeout.git"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "git"
+  ],
+  "author": "Nate Geslin, teamtomkins23@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n8rzz/checkmeout/issues"
+  },
+  "homepage": "https://github.com/n8rzz/checkmeout#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.0.0"
+  }
+}
